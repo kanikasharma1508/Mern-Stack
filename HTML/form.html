@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="abc.css">
 </head>
 <body>
 <h1><u>student registration form</u></h1>
 <form>
 <h3>enter your name</h3>
-<input type="text">
+<input type="text" maxlength="15" placeholder="enter your name">
 <h3>enter your password</h3>
-<input type="password">
+<input type="password" maxlength="10" placeholder="enter your password">
 <h3>select your gender</h3>
 <input type="radio" name="gender">male
 <input type="radio" name="gender">female
@@ -24,7 +25,13 @@
     <option value="">bombay</option>
     <option value="">jalandhar</option>
     <option value="">indore</option>
+
 </select>
+<h3>select your age</h3>
+<input type="number" min="15" max="25" placeholder="select age ">
+   <br>
+   <br>
+<button type="submit">click here</button>
 </form>    
 </body>
 </html>
