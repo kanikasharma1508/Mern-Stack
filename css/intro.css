@@ -1,7 +1,14 @@
-#k{
+/* #k{
     color: #21e95a;
 }
 
 #a{
     color: bisque;
+} */
+
+.name{
+    color: blueviolet;
+}
+.humans{
+    color: azure;
 }
