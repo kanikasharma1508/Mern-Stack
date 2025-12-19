@@ -1,5 +1,5 @@
 // to check the number is palindrome or not.
-let a=123
+let a=111
 let o=a
 let rev=0
 while(a!=0)
