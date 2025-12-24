@@ -8,8 +8,22 @@
 //     console.log(" tommy come!! come! tommy fast. ")
 // }
 // k()
-function greet(t)
+// function greet(t)
+// {
+//     console.log("greeting "+t)
+// }
+// greet("abc")
+
+// function sum()
+// {
+//     let a=5
+//     let b=1
+//     console.log(a+b)
+// }
+// sum()
+function sum(a,b)
 {
-    console.log("greeting "+t)
+    
+    console.log(a+b)
 }
-greet("abc")
+sum(5,5)
